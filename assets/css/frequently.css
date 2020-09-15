@@ -1,0 +1,153 @@
+/* full section start */
+*{
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Exo', sans-serif;
+}
+.container{
+  max-width: 1040px;
+  margin: 0 auto;
+}
+.header {
+  margin-top: 40px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: #fff;
+  padding-top: 15px;
+}
+.header .logo-section{
+  width: 30%;
+  display: inline-block;
+}
+.logo-section img{
+  width: 120px;
+}
+.menu-section{
+  float: right;
+  width: 70%;
+}
+.menu-section .toggle {
+    font-size: 35px;
+    color: black;
+    width: 100%;
+    display: none;
+    text-align: right;
+}
+.menu-section .toggle .start{
+    cursor: pointer;
+}
+.menu-section ul{
+  display: flex;
+  list-style: none;
+  float: right;
+}
+.menu-section ul .facebook{
+  margin-left: -15px;
+  border-right: 1px solid #e8e7e7;
+}
+.menu-section ul .search{
+  border-right: 1px solid #e8e7e7;
+}
+.menu-section ul .shopping a{
+ padding-right: 0;
+}
+.menu-section ul li a {
+  padding: 15px 15px;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.menu-section ul li a:hover {
+  color: #6d6767d6;
+  transition: 0.2s;
+}
+
+/* Frequently ask question start */
+.frequently-section{
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.frequently-header{
+  margin: 40px 0px 100px 0px;
+  text-align: center;
+}
+.frequently-header h2{
+  font-size: 26px;
+  font-weight: 500;
+  font-family: 'Cormorant Garamond', serif;
+}
+.description-text p,.description-text p span{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 19px;
+  margin-right: 5px;
+  line-height: 1.5;
+}
+.description-text h3{
+  font-size: 20px;
+}
+.description-text p {
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+.description-text p span{
+  font-weight: 400;
+}
+
+
+
+/* Footer section */
+.footer{
+  border-top: 1px solid #e2e2e2;
+}
+.footer-content{
+  display: flex;
+  margin: 80px 0px 80px 0px;
+}
+.footer-item {
+  width: 33.33%;
+}
+.item-1{
+  width: 37%;
+}
+.item-3{
+  width: 33%;
+}
+.item-3{
+  text-align: right;
+  width: 30%;
+}
+.footer-item button {
+  padding: 0px 0px;
+  border: none;
+  margin: 0px 28px 28px 0px;
+}
+.footer-item button.btn-1{
+  margin-left: 22px;
+}
+.footer-item button.btn-2{
+  margin-right: 0;
+}
+.footer-item button.btn-3 {
+  margin-left: 120px;
+}
+.footer-item button.btn-3 a{
+  padding: 15px 20px;
+}
+.footer-item button a{
+  padding: 20px 35px;
+  width: 65px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #282923;
+  border-radius: 4px;
+}
+
+.footer-item span{
+  font-size: 15px;
+}
+

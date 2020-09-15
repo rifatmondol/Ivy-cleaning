@@ -1,0 +1,525 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* full section start */
+*{
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Exo', sans-serif;
+}
+.container{
+  max-width: 1040px;
+  margin: 0 auto;
+}
+.header {
+    margin-top: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #fff;
+    padding-top: 15px;
+}
+.header .logo-section{
+  width: 30%;
+  display: inline-block;
+}
+.logo-section img{
+  width: 120px;
+}
+.menu-section{
+  float: right;
+  width: 70%;
+}
+.menu-section .toggle {
+    font-size: 35px;
+    color: black;
+    width: 100%;
+    display: none;
+    text-align: right;
+}
+.menu-section .toggle .start{
+    cursor: pointer;
+}
+.menu-section ul{
+  display: flex;
+  list-style: none;
+  float: right;
+}
+.menu-section ul .facebook{
+  margin-left: -15px;
+  border-right: 1px solid #e8e7e7;
+}
+.menu-section ul .search{
+  border-right: 1px solid #e8e7e7;
+}
+.menu-section ul .shopping a{
+ padding-right: 0;
+}
+.menu-section ul li a {
+  padding: 15px 15px;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.menu-section ul li a:hover {
+    color: #6d6767d6;
+    transition: 0.2s;
+}
+
+/* Category section */
+.category-section,.covid-19,.testimonial-text{
+  border-bottom: 1px solid #e2e2e2;
+}
+.footer{
+  border-top: 1px solid #e2e2e2;
+}
+.category-text {
+    background: url(../img/1.jpeg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45%;
+    position: relative;
+}
+.category-text ul {
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    background: #000000ad;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    color: #ddd;
+}
+
+.category-text ul li {
+    line-height: 2.3;
+    font-size: 14px;
+    margin: 5px 0px 0px 20px;
+}
+.category-link{
+  width: 44%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+.category-section .category-link button {
+    border: navajowhite;
+    background: #020202cc;
+    padding: 25px 15px;
+    border-radius: 5px;
+    margin: 0px 15px;
+    margin-bottom: 80px;
+}
+.category-section .category-link button a{
+  padding: 25px 15px;
+  text-decoration: none;
+  color: #f5f2f2;
+  font-weight: 700;
+  font-size: 16px;
+}
+.category-section .category-link button:hover {
+  background: #424040e8;
+}
+
+
+/* Covid 19 */
+.covid-19{
+  margin-top: 70px
+}
+.covid-19-text{
+  width: 55%;
+  margin: 0 auto;
+  line-height: 30px;
+}
+.covid-19-text h2{
+  margin-left: 100px;
+}
+.covid-19-text ul li{
+  font-size: 15px;
+}
+
+.covid-19-services{
+  display: flex;
+}
+.covid-19-services .service-item {
+  width: 25%;
+  margin: 15px;
+  margin-bottom: 100px;
+}
+.covid-19-services .service-item.ml-0{
+  margin-left: 0;
+}
+.covid-19-services .service-item.mr-0{
+  margin-right: 0;
+}
+.service-item-img{
+  width: 100%;
+}
+.service-item h3 {
+  text-align: center;
+  font-size: 17px;
+}
+.service-text{
+  display: none;
+}
+.service-item-img{
+  position: relative;
+}
+.service-item-img img{
+  width: 100%;
+  height: 100%;
+}
+.service-item-img:hover .service-text {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  font-size: 13px;
+  line-height: 1.6;
+  background: #333232c7;
+  color: #dad7d7;
+}
+.service-item-img .service-text p{
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+
+/* Testimonial text */
+.testimonial-text {
+  width: 100%;
+}
+.testimonial-text h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 80px;
+}
+.testimonial-text p {
+  font-family: 'Cormorant Garamond', serif;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  font-weight: 600;
+  margin-top: 80px;
+}
+.testimonial-text p.txt-1{
+  margin-top: inherit;
+}
+
+
+/* Review section */
+.review-section p{
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600;
+  margin: 80px 0px 100px 0px;
+}
+.review-section p a{
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+.review-section p a:hover{
+  color: #6b6565e8;
+  transition:  0.2s ease-in;
+}
+
+/* Footer section */
+
+.footer-content{
+  display: flex;
+  margin: 80px 0px 80px 0px;
+}
+.footer-item {
+  width: 33.33%;
+}
+.item-1{
+  width: 37%;
+}
+.item-3{
+  width: 33%;
+}
+.item-3{
+  text-align: right;
+  width: 30%;
+}
+.footer-item button {
+    padding: 0px 0px;
+    border: none;
+    margin: 0px 28px 28px 0px;
+}
+.footer-item button.btn-1{
+  margin-left: 22px;
+}
+.footer-item button.btn-2{
+  margin-right: 0;
+}
+.footer-item button.btn-3 {
+    margin-left: 120px;
+}
+.footer-item button.btn-3 a{
+    padding: 15px 20px;
+}
+.footer-item button a{
+  padding: 20px 35px;
+  width: 65px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #282923;
+  border-radius: 4px;
+}
+
+.footer-item span{
+  font-size: 15px;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+

@@ -1,0 +1,331 @@
+/********************************************************/
+/* Max-Width 1200PX     *********************************/
+/********************************************************/
+@media (max-width: 1200px) {
+	.full-section{
+		margin: 0px 5px 0px 5px;
+	}
+	.menu-section ul li a {
+    padding: 15px 11px;
+    font-size: 18px;
+	}
+  .category-link {
+    width: 60%;
+	}
+
+	/* About section */
+
+}
+
+
+/********************************************************/
+/* Min-Width 993PX     **********************************/
+/********************************************************/
+@media (min-width: 992px) {
+
+}
+
+
+
+/********************************************************/
+/* Max-Width 991PX     **********************************/
+/********************************************************/
+@media (max-width: 992px) {
+	.container{
+		max-width: 900px;
+	}
+	.menu-section ul li a {
+    padding: 15px 9px;
+  }
+  .category-link {
+    width: 53%;
+	}
+	.category-section .category-link button,.category-section .category-link button a {
+    padding: 25px 7px;
+  }
+	.covid-19-text {
+    width: 65%;
+  }
+  .service-item h3 {
+    font-size: 14px;
+	}
+	.service-item-img:hover .service-text {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .footer-item button a {
+    padding: 15px 28px;
+    width: 62px;
+  }
+  .footer-item span {
+    font-size: 14px;
+	}
+	.footer-item button.btn-3 {
+    margin-left: 105px;
+	}
+
+	/* About section */
+
+	.about-us-left button {
+    margin: 30px 0px 0px 110px;
+  }
+}
+
+
+/********************************************************/
+/* Max-Width 767PX     **********************************/
+/********************************************************/
+@media (max-width: 768px) {
+	.container{
+		max-width: 700px;
+	}
+	.menu-section .toggle {
+		display: block;
+	}
+	.menu-section ul .facebook {
+    margin-left: 0;
+  }
+	.menu-section ul li a {
+    font-size: 18px;
+    padding: 15px 0px;
+	}
+	.menu-section ul li {
+    width: 143px;
+    text-align: start;
+    border-bottom: 1px solid #ddd;
+}
+	.menu-section ul.active {
+    display: block;
+    line-height: 2;
+    position: absolute;
+    right: 0%;
+    background: #fff;
+    height: 100vh;
+	}
+	.menu-section ul{
+		position: absolute;
+		display: none;
+    right: -30%;
+	}
+	.menu-section ul .istagram,
+	.menu-section ul .facebook,
+	.menu-section ul .search,
+	.menu-section ul .shopping{
+		display: inline;
+		border: none;
+	}
+	.fa-instagram,
+	.fa-facebook-f,
+	.fa-search,
+	.fa-shopping-bag{
+		width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+	}
+	.category-section .category-link button, .category-section .category-link button a {
+    padding: 25px 5px;
+    font-size: 13px;
+	}
+	.covid-19-text h2 {
+    font-size: 18px;
+	}
+	.service-item-img:hover .service-text {
+    font-size: 14px;
+  }
+	.covid-19-services{
+		display: inline;
+	}
+	.service-item.ml-0,
+	.service-item.mr-1,
+	.service-item.ml-1,
+	.service-item.mr-0{
+		width: 46%;
+	}
+	.service-item.ml-0,
+	.service-item.mr-1{
+		margin-bottom: 30px;
+	}
+	.service-item.ml-0{
+		float: left;
+		margin-left: 5px;
+	}
+	.service-item.mr-1{
+		float: right;
+		margin-right: 5px;
+	}
+	.service-item.ml-1{
+		float: left;
+		margin-left: 0;
+	}
+	.covid-19-services .service-item.mr-0 {
+		float: right;
+    margin-right: 5px;
+	}
+	.service-item h3 {
+    font-size: 16px;
+	}
+	.testimonial-text p{
+    font-size: 18px;
+	}
+	.footer-content{
+		display: inline;
+	}
+	.footer-item.item-1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+	}
+	.footer-item.item-2{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.footer-item.item-3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+	}
+	.testimonial-section{
+		display: inline-block;
+    border-top: 1px solid #ddd;
+	}
+	.covid-19-services {
+    display: inline-block;
+    margin-top: 50px;
+    border-top: 1px solid #ddd;
+	}
+
+	/* About section */
+	.about-us-left button {
+    margin: 30px 0px 0px 70px;
+	}
+	.about-us-part h2 {
+    font-size: 20px;
+	}
+	.about-us-part h3 {
+    font-size: 17px;
+	}
+
+
+
+
+
+
+	.menu-section .toggle .close{
+		display: none;
+	}
+	.menu-section .toggle .menu.menu-2{
+		display: none;
+	}
+	.menu-section .toggle .close.times-add{
+		display: block;
+	}
+}
+
+
+
+/********************************************************/
+/* Max-Width 576PX     **********************************/
+/********************************************************/
+@media (max-width: 576px) {
+	.container{
+		max-width: 480px;
+	}
+	.category-link {
+    width: 70%;
+	}
+	.covid-19-text {
+	    width: 90%;
+	}
+	.covid-19-text h2{
+		margin-left: 45px;
+	}
+	.service-item-img:hover .service-text {
+	  font-size: 13px;
+	}
+	.covid-19-services{
+		display: block;
+	}
+	.covid-19-services .service-item{
+		width: 100%;
+	}
+	.service-item h3 {
+    font-size: 20px;
+	}
+	.covid-19-services .service-item.mr-1,
+	.covid-19-services .service-item.mr-0{
+		margin-right: 0;
+	}
+	.covid-19-services .service-item.ml-1{
+		margin-bottom: 30px;
+	}
+	.testimonial-text p {
+    width: 85%;
+	}
+	.footer-item.item-2 {
+    width: 75%;
+	}
+
+	/* About section */
+
+	.about-us-section{
+		display: block;
+	}
+	.about-us-left,.about-us-right{
+		width: 100%;
+	}
+	.about-us-left button {
+    margin: 30px 0px 0px 150px;
+	}
+	.about-us-left img {
+    width: 100%;
+    margin-left: 0;
+	}
+	.about-us-right{
+		margin-top: 70px;
+	}
+
+	/* Contact */
+	.contact-section .contact-text {
+    width: 80%;
+	}
+	.contact-section .contact-text button {
+    padding: 25px 15px;
+    margin: 30px 0px 0px 0px;
+  }
+  .contact-section .contact-text button a{
+  	font-size: 16px;
+  }
+}
+
+
+
+/********************************************************/
+/* Max-Width 320PX     **********************************/
+/********************************************************/
+@media(max-width: 320px){
+	.testimonial-text p {
+    font-size: 15px;
+	}
+	.testimonial-text h3 {
+    font-size: 20px;
+  }
+  .service-item h3 {
+    font-size: 18px;
+}
+	.review-section p {
+    font-size: 17px;
+  }
+	.footer-item.item-2 {
+    width: 100%;
+	}
+
+	/* About us */
+	.about-us-left button {
+    margin: 30px 0px 0px 62px;
+	}
+	.contact-section .contact-text h3 {
+    font-size: 20px;
+	}
+}

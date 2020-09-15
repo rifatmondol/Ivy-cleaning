@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$('.menu').click(function(){
+		$('ul').toggleClass('active');
+		$('.menu').toggleClass('menu-2');
+		$('.close').toggleClass('times-add');
+	});
+	$('.close').click(function(){
+		$('ul').removeClass('active');
+		$('.menu').removeClass('menu-2');
+		$('.close').removeClass('times-add');
+	});
+});
